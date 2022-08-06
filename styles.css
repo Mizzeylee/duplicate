@@ -1,0 +1,183 @@
+@font-face {
+  font-family: Averta;
+  src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+@media screen and (min-width: 1100px) {
+  * {
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Averta, sans-serif;
+  }
+
+  body {
+    color: #514949;
+    font-family: Averta, sans-serif;
+    box-sizing: border-box;
+  }
+
+  nav {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 4%;
+    justify-content: space-between;
+    background-color: aqua;
+  }
+
+  .nav-p {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-top: 1.5%;
+  }
+  .thumb {
+    z-index: +1;
+  }
+  .thumb img {
+    width: 70px;
+    margin-top: -20%;
+    background-color: #f08a81;
+    border-radius: 100%;
+    border: 11px solid #e7332b;
+  }
+  .logo1 img {
+    width: 280px;
+  }
+
+  .thumb1 {
+    margin-left: -120%;
+    /* how to make the padding better 
+    so that it would not be shwing after the link has (thumbs up)
+     been clicked and make image have a link to enroll
+     how to make divs of pictures remain in
+      the same position when zooing in or out */
+    padding: 10px 54px 10px 54px;
+    background-color: #e7332b;
+    border: 1px solid #e7332b;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+
+  .sec-1 {
+    padding-top: 9%;
+    text-align: center;
+  }
+  .sec-1 div h4 {
+    font-weight: lighter;
+    color: #e7332b;
+  }
+
+  .sec-1 div h1 {
+    color: black;
+    font-size: 50px;
+    padding-top: 8px;
+  }
+
+  .sec-1 div p {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+
+  .sec-1 div .line {
+    width: 180px;
+    margin-left: 300px;
+  }
+
+  .bg {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+  }
+
+  .girl1,
+  .boy1 {
+    width: 300px;
+    margin-top: -24%;
+    z-index: -1;
+  }
+  .butt1 {
+    margin-top: 8%;
+    padding: 10px 54px 10px 54px;
+    background-color: #e7332b;
+    border: 1px solid #e7332b;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  .thumb2 {
+    padding: 10px 54px 10px 54px;
+    background-color: #e7332b;
+    border: 1px solid #e7332b;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+
+  .thumb2-div {
+    padding-top: -40px;
+  }
+  .under1 {
+    background-color: aqu;
+    margin-top: -13.5%;
+    z-index: -1;
+  }
+  .secw1 {
+    width: 80px;
+    margin-right: 30%;
+  }
+  .malef1 {
+    width: 50px;
+    margin-left: 12%;
+    margin-top: -16%;
+  }
+  .div {
+    display: flex;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  hr {
+    margin: 3% 3% 5% 3%;
+  }
+  .sec2 img {
+    width: 200px;
+  }
+  .sec2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .sec2p {
+    text-align: right;
+    font-size: 24px;
+    margin-top: -6%;
+  }
+  .sec2 img {
+    margin-top: -22%;
+  }
+  .sec2 h2 {
+    font-size: 24px;
+    color: black;
+    font-weight: 900;
+  }
+
+  .sec2 a {
+    color: rgb(3, 159, 6);
+  }
+
+  .sec3{
+    margin-left: 3%;
+      margin-right: 3%;
+  }
+  
+}
